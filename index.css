@@ -1,3 +1,7 @@
 html {
     text-align: center;
 }
+
+.links > p {
+    color: green;
+}

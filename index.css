@@ -11,10 +11,19 @@ a {
     margin-left: 35px;
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 
-a:visited {
-    margin-left: 35px;
-    text-decoration: none;
-    color: black;
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: green;
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 100%;
+    transition: width .3s;
 }

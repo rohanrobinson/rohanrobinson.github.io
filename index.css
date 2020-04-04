@@ -1,7 +1,20 @@
-html {
+body {
     text-align: center;
 }
 
-.links > p {
-    color: green;
+.container, .bio {
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
 }

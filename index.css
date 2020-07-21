@@ -1,6 +1,18 @@
-#links {
+#links, .comingSoon {
     text-align: center;
 }
+
+.comingSoon {
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.comingSoon button {
+    background-color: lightcoral;
+    border: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 .container {
     margin-top: 50px;
@@ -61,7 +73,15 @@ ul {
     font-family: 'Open Sans', sans-serif;
 }
 
-#twitterButton:hover {
+#writingButton {
+    background-color: lightseagreen; /* Green */
+    border: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+#twitterButton:hover, #writingButton:hover {
     transform: scale(1.1);
     cursor: pointer;
     border-width: 20px;

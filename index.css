@@ -6,20 +6,21 @@
     font-family: 'Open Sans', sans-serif;    
 }
 
-.comingSoon button {
-    background-color: lightcoral;
-    border: none;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-}
+
 
 
 .container {
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
-a {
+a.bodyLink {
+    text-decoration: none;
+    color: green;
+}
+
+a.link {
     margin-left: 35px;
     text-decoration: none;
     color: black;
@@ -63,27 +64,8 @@ ul {
 }
 
 #aboutMe, #buttonsFun {
-    margin-left: 200px;
+    text-align: center;
 }
   
-#twitterButton {
-    background-color: lightblue; /* Green */
-    border: none;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-}
 
-#writingButton {
-    background-color: lightseagreen; /* Green */
-    border: none;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 10px;
-}
 
-#twitterButton:hover, #writingButton:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    border-width: 20px;
-    border-color: black; 
-}

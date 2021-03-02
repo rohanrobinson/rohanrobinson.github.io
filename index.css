@@ -45,6 +45,14 @@ ul {
     list-style-type: none;
 }
 
+#labeled {
+    color: green
+}
+
+#labeled:hover {
+    cursor: pointer;
+}
+
 #dplan, #bacon, #pos {
     cursor: pointer;
 }

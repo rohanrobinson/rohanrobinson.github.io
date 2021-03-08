@@ -1,22 +1,37 @@
 <html>
     <head>
         <title>Portfolio - Rohan Robinson</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+		<link rel="icon" href="Batman.png">
+        <script src="app.js"></script>
     </head>
     <body>
         <header>
             <h1>Portfolio</h1>
-            <a href="index.html">Home page</a>
+            <h2><a href="index.html" class="link">About Me</a></h2>
         </header>
-
-        <h2>Software Engineering / Web Development / Design</h2>
+    <div class="container">
+        <h2>Software Engineering</h2>
             <ul>
-                <li>Court Check</li>
-                <li>ITC-DPlan</li>
-                <li>Health Tech Dashboard</li>
-                <li>Peer Tech Mental Health System</li>
-                <li>Accountable Fitness Mobile App</li>
-                <li>Athena Philosophy Web App</li>
-                <li>Kevin Bacon Number Identifier</li>
+                <li class="project" id="court-header">Court Check</li>
+                <div id="court-info">
+                    <p>Description: </p>
+                    <p>Technology used: </p>                    
+                </div>
+
+                <br>
+                <li class="project">ITC-DPlan</li>
+                <br>
+                <li class="project">Health Tech Dashboard</li>
+                <br>
+                <li class="project">Peer Tech Mental Health System</li>
+                <br>
+                <li class="project">Accountable Fitness Mobile App</li>
+                <br>
+                <li class="project">Athena Philosophy Web App</li>
+                <br>
+                <li class="project">Kevin Bacon Number Identifier</li>
             </ul>
         <h2>Data Science & Machine Learning</h2>
         <ul>
@@ -31,6 +46,9 @@
         <ul>
             <li>Public and Private Companies Utliziing CRISPR</li>
             <li>Research on Using AI in Healthcare Diagnostics</li>
-        </ul>        
+        </ul>  
+    </div>
+    
+    <script src="app.js"></script>
     </body>
 </html>

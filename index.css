@@ -1,3 +1,7 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
 #links, .comingSoon {
     text-align: center;
 }
@@ -12,7 +16,7 @@
 .container {
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
-    
+    text-align: center;
 }
 
 a.bodyLink {
@@ -56,20 +60,15 @@ ul {
 #dplan, #bacon, #pos {
     cursor: pointer;
 }
-
-.project::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background:red;
-    transition: width .3s;
+.project:hover{
+    cursor: pointer;
+    color: green;
 }
 
-.project:hover::after {
-    width: 100%;
-    transition: width .3s;
+#court-info {
+    display:none;
 }
+
 
 #aboutMe, #buttonsFun {
     text-align: center;

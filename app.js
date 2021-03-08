@@ -14,11 +14,26 @@
 // pos.addEventListener('click', function (event) {
 //     alert('you clicked the pos');
 // });
+window.onload=function(){
+var courtHeader = document.getElementById('court-header');
+var courtInfo = document.getElementById('court-info');
 
-var portfolio = document.getElementById("labeled");
-portfolio.onclick = function() {
-  alert("yolo!!!!");
+courtHeader.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (courtInfo.style.display == 'block') {
+      courtInfo.style.display = 'none';
+
+      courtInfo.value = 'Show DIV';
+  }
+  else {
+      courtInfo.style.display = 'block';
+      courtInfo.value = 'Hide DIV';
+  }
+});
 }
+
+
+
 
 // //from w3 schools
 // // Get the modal

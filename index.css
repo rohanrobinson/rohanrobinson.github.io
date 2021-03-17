@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-.comingSoon {
+.comingSoon, #portfolio-header, #home-header {
     font-family: 'Open Sans', sans-serif;    
 }
 
@@ -65,7 +65,7 @@ ul {
     color: green;
 }
 
-#court-info {
+#court-info, #dplan-info {
     display:none;
 }
 

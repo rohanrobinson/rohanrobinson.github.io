@@ -18,6 +18,11 @@ window.onload=function(){
 var courtHeader = document.getElementById('court-header');
 var courtInfo = document.getElementById('court-info');
 
+var dplanHeader = document.getElementById('dplan-header');
+var dplanInfo = document.getElementById('dplan-info');
+
+
+
 courtHeader.addEventListener('click', function (event) {
   console.log("clicked");
   if (courtInfo.style.display == 'block') {
@@ -30,6 +35,22 @@ courtHeader.addEventListener('click', function (event) {
       courtInfo.value = 'Hide DIV';
   }
 });
+
+dplanHeader.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (dplanInfo.style.display == 'block') {
+      dplanInfo.style.display = 'none';
+
+      dplanInfo.value = 'Show DIV';
+  }
+  else {
+      dplanInfo.style.display = 'block';
+      dplanInfo.value = 'Hide DIV';
+  }
+});
+
+
+
 }
 
 

@@ -1,24 +1,19 @@
 body {
-    background-color: black;
+    background-color: #1b1e23;
     color: white;
-    text-align: center;
-}
-#links, .comingSoon {
-    text-align: center;
 }
 
-.comingSoon, #portfolio-header, #home-header {
-    font-family: 'Open Sans', sans-serif;    
-}
+
+
 
 
 
 
 .container {
     margin-top: 50px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin-right: 50px;
+    font-family: relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+    font-weight: 400;
+    margin-left: 400px;
 }
 
 a.bodyLink {
@@ -75,9 +70,7 @@ ul {
     display:none;
 }
 
-#aboutMe, #buttonsFun {
-    text-align: center;
-}
+
   
 
 

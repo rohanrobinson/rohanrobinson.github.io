@@ -21,6 +21,25 @@ var courtInfo = document.getElementById('court-info');
 var dplanHeader = document.getElementById('dplan-header');
 var dplanInfo = document.getElementById('dplan-info');
 
+var athenaHeader = document.getElementById('athena-header');
+var athenaInfo = document.getElementById('athena-info');
+
+var softwareHeader = document.getElementById('software-projects');
+var softwareTitle = document.getElementById('software-title');
+
+softwareTitle.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (softwareHeader.style.display == 'block') {
+      softwareHeader.style.display = 'none';
+
+      softwareHeader.value = 'Show DIV';
+  }
+  else {
+      softwareHeader.style.display = 'block';
+      softwareHeader.value = 'Hide DIV';
+  }
+});
+
 
 
 courtHeader.addEventListener('click', function (event) {
@@ -46,6 +65,20 @@ dplanHeader.addEventListener('click', function (event) {
   else {
       dplanInfo.style.display = 'block';
       dplanInfo.value = 'Hide DIV';
+  }
+});
+
+
+athenaHeader.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (athenaInfo.style.display == 'block') {
+      athenaInfo.style.display = 'none';
+
+      athenaInfo.value = 'Show DIV';
+  }
+  else {
+      athenaInfo.style.display = 'block';
+      athenaInfo.value = 'Hide DIV';
   }
 });
 

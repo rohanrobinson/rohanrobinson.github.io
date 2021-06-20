@@ -64,8 +64,12 @@ ul {
     display:none;
 }
 
-#software-projects { 
+#software-projects, #ml-projects, #writing-projects { 
     display: none;
+}
+
+#project-sections{
+    margin-top: 50px;
 }
 
 .section-header:hover {

@@ -27,6 +27,12 @@ var athenaInfo = document.getElementById('athena-info');
 var softwareHeader = document.getElementById('software-projects');
 var softwareTitle = document.getElementById('software-title');
 
+var mlHeader = document.getElementById('ml-projects');
+var mlTitle = document.getElementById('ml-title');
+
+var writingHeader = document.getElementById('writing-projects');
+var writingTitle = document.getElementById('writing-title');
+
 softwareTitle.addEventListener('click', function (event) {
   console.log("clicked");
   if (softwareHeader.style.display == 'block') {
@@ -37,6 +43,32 @@ softwareTitle.addEventListener('click', function (event) {
   else {
       softwareHeader.style.display = 'block';
       softwareHeader.value = 'Hide DIV';
+  }
+});
+
+mlTitle.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (mlHeader.style.display == 'block') {
+      mlHeader.style.display = 'none';
+
+      mlHeader.value = 'Show DIV';
+  }
+  else {
+      mlHeader.style.display = 'block';
+      mlHeader.value = 'Hide DIV';
+  }
+});
+
+writingTitle.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (writingHeader.style.display == 'block') {
+      writingHeader.style.display = 'none';
+
+      writingHeader.value = 'Show DIV';
+  }
+  else {
+      writingHeader.style.display = 'block';
+      writingHeader.value = 'Hide DIV';
   }
 });
 

@@ -24,6 +24,9 @@ var dplanInfo = document.getElementById('dplan-info');
 var athenaHeader = document.getElementById('athena-header');
 var athenaInfo = document.getElementById('athena-info');
 
+var tipcalcHeader = document.getElementById('tipcalc-header');
+var tipcalcInfo = document.getElementById('tipcalc-info');
+
 var softwareHeader = document.getElementById('software-projects');
 var softwareTitle = document.getElementById('software-title');
 
@@ -32,6 +35,7 @@ var mlTitle = document.getElementById('ml-title');
 
 var writingHeader = document.getElementById('writing-projects');
 var writingTitle = document.getElementById('writing-title');
+
 
 softwareTitle.addEventListener('click', function (event) {
   console.log("clicked");
@@ -111,6 +115,19 @@ athenaHeader.addEventListener('click', function (event) {
   else {
       athenaInfo.style.display = 'block';
       athenaInfo.value = 'Hide DIV';
+  }
+});
+
+tipcalcHeader.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (tipcalcInfo.style.display == 'block') {
+      tipcalcInfo.style.display = 'none';
+
+      tipcalcInfo.value = 'Show DIV';
+  }
+  else {
+      tipcalcInfo.style.display = 'block';
+      tipcalcInfo.value = 'Hide DIV';
   }
 });
 

@@ -60,7 +60,7 @@ ul {
     color: white;
 }
 
-#court-info, #dplan-info, #athena-info, #tipcalc-info {
+#court-info, #dplan-info, #athena-info, #peertech-info, #accountable-info, #clari-info, #tipcalc-info {
     display:none;
 }
 

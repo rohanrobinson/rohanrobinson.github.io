@@ -24,17 +24,17 @@ var dplanInfo = document.getElementById('dplan-info');
 var athenaHeader = document.getElementById('athena-header');
 var athenaInfo = document.getElementById('athena-info');
 
-var tipcalcHeader = document.getElementById('tipcalc-header');
-var tipcalcInfo = document.getElementById('tipcalc-info');
+var peerTechHeader = document.getElementById("peertech-header");
+var peerTechInfo = document.getElementById("peertech-info");
+
+var accountableHeader = document.getElementById("accountable-header");
+var accountableInfo = document.getElementById("accountable-info");
+
+var clariHeader = document.getElementById("clari-header");
+var clariInfo = document.getElementById("clari-info");
 
 var softwareHeader = document.getElementById('software-projects');
 var softwareTitle = document.getElementById('software-title');
-
-var mlHeader = document.getElementById('ml-projects');
-var mlTitle = document.getElementById('ml-title');
-
-var writingHeader = document.getElementById('writing-projects');
-var writingTitle = document.getElementById('writing-title');
 
 
 softwareTitle.addEventListener('click', function (event) {
@@ -49,34 +49,6 @@ softwareTitle.addEventListener('click', function (event) {
       softwareHeader.value = 'Hide DIV';
   }
 });
-
-mlTitle.addEventListener('click', function (event) {
-  console.log("clicked");
-  if (mlHeader.style.display == 'block') {
-      mlHeader.style.display = 'none';
-
-      mlHeader.value = 'Show DIV';
-  }
-  else {
-      mlHeader.style.display = 'block';
-      mlHeader.value = 'Hide DIV';
-  }
-});
-
-writingTitle.addEventListener('click', function (event) {
-  console.log("clicked");
-  if (writingHeader.style.display == 'block') {
-      writingHeader.style.display = 'none';
-
-      writingHeader.value = 'Show DIV';
-  }
-  else {
-      writingHeader.style.display = 'block';
-      writingHeader.value = 'Hide DIV';
-  }
-});
-
-
 
 courtHeader.addEventListener('click', function (event) {
   console.log("clicked");
@@ -118,20 +90,45 @@ athenaHeader.addEventListener('click', function (event) {
   }
 });
 
-tipcalcHeader.addEventListener('click', function (event) {
+peerTechHeader.addEventListener('click', function (event) {
   console.log("clicked");
-  if (tipcalcInfo.style.display == 'block') {
-      tipcalcInfo.style.display = 'none';
+  if (peerTechInfo.style.display == 'block') {
+      peerTechInfo.style.display = 'none';
 
-      tipcalcInfo.value = 'Show DIV';
+      peerTechInfo.value = 'Show DIV';
   }
   else {
-      tipcalcInfo.style.display = 'block';
-      tipcalcInfo.value = 'Hide DIV';
+      peerTechInfo.style.display = 'block';
+      peerTechInfo.value = 'Hide DIV';
   }
 });
 
+accountableHeader.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (accountableInfo.style.display == 'block') {
+      accountableInfo.style.display = 'none';
 
+      accountableInfo.value = 'Show DIV';
+  }
+  else {
+      accountableInfo.style.display = 'block';
+      accountableInfo.value = 'Hide DIV';
+  }
+});
+
+clariHeader.addEventListener('click', function (event) {
+  console.log("clicked");
+  if (clariInfo.style.display == 'block') {
+      clariInfo.style.display = 'none';
+
+      clariInfo.value = 'Show DIV';
+  }
+  else {
+      clariInfo.style.display = 'block';
+      clariInfo.value = 'Hide DIV';
+  }
+});
+  
 
 }
 

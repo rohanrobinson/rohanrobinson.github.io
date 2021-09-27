@@ -19,6 +19,16 @@ a.bodyLink:hover {
     color: lightsalmon;
 }
 
+a.sideProject {
+    text-decoration: none;
+    color: white;
+}
+
+a.sideProject:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
 a.link {
     margin-left: 35px;
     text-decoration: none;

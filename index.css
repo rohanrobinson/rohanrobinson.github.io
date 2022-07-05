@@ -10,6 +10,10 @@ body {
     margin-left: 400px;
 }
 
+.topic-categories {
+    margin-left: 50px;
+}
+
 a.bodyLink {
     text-decoration: none;
     color: white;

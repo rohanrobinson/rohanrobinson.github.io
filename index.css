@@ -10,6 +10,17 @@ body {
     margin-left: 400px;
 }
 
+
+
+#about-tag:hover {
+    cursor: pointer;
+}
+
+#about-tag {
+    margin-left: 200px;
+}
+
+
 .topic-categories {
     margin-left: 50px;
 }

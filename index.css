@@ -25,6 +25,10 @@ body {
     margin-left: 50px;
 }
 
+.topic-articles {
+    margin-left: 100px;
+}
+
 a.bodyLink {
     text-decoration: none;
     color: white;

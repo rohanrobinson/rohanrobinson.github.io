@@ -16,6 +16,9 @@ body {
     font-family: relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
 }
 
+#backDino {
+    margin-right: 600px;
+}
 .selectStuff {
     text-align: center;
     float: left;

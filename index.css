@@ -10,7 +10,17 @@ body {
     margin-left: 400px;
 }
 
+.dinosaurContainer {
+    margin-top: 100px;
+    text-align: center;
+    font-family: relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+}
 
+.selectStuff {
+    text-align: center;
+    float: left;
+    margin-left: 250px;
+}
 
 #about-tag:hover {
     cursor: pointer;

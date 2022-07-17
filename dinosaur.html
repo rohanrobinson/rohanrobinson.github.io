@@ -16,13 +16,13 @@
         <div class="selectStuff" id = "selectAnimal">
             <h4>What is your sprit animal?</h4>
             <select class="optionsTray" id="animalOptions">
-                <option>Tiger</option>
-                <option>Lion</option>
-                <option>Bear</option>
-                <option>Bird</option>
-                <option>Gator</option>
-                <option>Elephant</option>
-                <option>Spotted Gecko</option>
+                <option value="Tiger">Tiger</option>
+                <option value="Lion">Lion</option>
+                <option value="Bear">Bear</option>
+                <option value="Bird">Bird</option>
+                <option value="Gator">Gator</option>
+                <option value="Elephant">Elephant</option>
+                <option value="Spotted Gecko">Spotted Gecko</option>
             </select>
             <br />
             <br />
@@ -33,12 +33,12 @@
         <div class="selectStuff" id ="selectDinosaur">
             <h4>What dinosaur do want your spirit animal compared to?</h4>
             <select class="optionsTray" id="dinosaurOptions">
-                <option>T-rex</option>
-                <option>Velociraptor</option>
-                <option>Pterodactyl</option>
-                <option>Brontosauraus</option>
-                <option>Triceratops</option>
-                <option>Stegasaurous </option>
+                <option value="T-rex">T-rex</option>
+                <option value="Velociraptor">Velociraptor</option>
+                <option value="Pterodactyl">Pterodactyl</option>
+                <option value="Brontosauraus">Brontosaurus</option>
+                <option value="Trieceratops">Triceratops</option>
+                <option value="Stegasaurous">Stegasaurus </option>
             </select>
             <br />
             <br />
@@ -46,10 +46,24 @@
         </div>
 
 
-
-        <div id="connectBtn">
-            <button class="button-6" id="curiosityBtn">SATISFY CURIOSITY NOW</button>
+        <br />
+        <br />
+        <div>
+            <button class="button-6" id="curiosityBtn">Satisfy Your Curiosity</button>
         </div>
+
+
+        <br />
+
+        <div id="resultsDiv">
+            <br />
+            <p>DNA of <span id="animalSpan"></span> is comprised of A, T, G, C.</span></p>
+            <p>DNA of <span id="dinoSpan"></span> is comprised of A, T, G, C.</span></p>
+            <p>What is <span id="alsoDinoSpan"></span>'s genetic sequence.</p>
+            <p>Your selected organisms are <span id="percentageSpan"></span>genetically similar</p>
+        </div>
+
+
     </div>
     <script src="dinosaur.js"></script>
     </body>

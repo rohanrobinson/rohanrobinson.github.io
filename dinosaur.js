@@ -1,15 +1,33 @@
 var dinosuars = document.getElementById("dinosaurOptions");
 var animals = document.getElementById("animalOptions");
 
+// text display  to user 
 var animalSelected = document.getElementById("animalSelected");
 var dinoSelected = document.getElementById("dinoSelected");
 
-var connectBtn = document.getElementById("connectBtn");
+// info for genetic comparison
+var animalSelection = document.getElementById("animalOptions");
+var dinosaurSelection = document.getElementById("dinosaurOptions");
 
+
+var curiosityBtn = document.getElementById("curiosityBtn");
+
+// elements pertaining to results
+var resultsDiv = document.getElementById("resultsDiv");
+var animalSpan = document.getElementById("animalSpan");
+var dinoSpan = document.getElementById("dinoSpan");
+var percentageSpan = document.getElementById("percentageSpan");
+/////////---////////////////////
+
+// Open the modal
 curiosityBtn.addEventListener("click", function() {
-    alert("the gal from Jurassic Park finna come thru soon...");
-})
+    animalSpan.innerHTML = animalSelection.value;
+    dinoSpan.innerHTML =  dinosaurSelection.value;
+    percentageSpan.innerHTML = '50%';
+    resultsDiv.style.display = 'block';
+});
 
+  
 var dinoPicTable = {
     "T-rex": 'showTrexPic' ,
     "Velociraptor": 'showVelociraptorPic',
@@ -34,7 +52,7 @@ var animalPicTable = {
 dinosuars.addEventListener('change', function (event) {
     console.log("dinosaur change ", event.target.value);
     var newDino = event.target.value;
-    dinoSelected.innerHTML = "You beautiful human have selected " +  newDino;
+    dinoSelected.innerHTML = "Hello Human, you have selected " +  newDino;
     console.log(dinoPicTable[newDino]);
 });
 

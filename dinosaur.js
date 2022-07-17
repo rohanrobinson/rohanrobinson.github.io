@@ -23,7 +23,7 @@ var percentageSpan = document.getElementById("percentageSpan");
 curiosityBtn.addEventListener("click", function() {
     animalSpan.innerHTML = animalSelection.value;
     dinoSpan.innerHTML =  dinosaurSelection.value;
-    percentageSpan.innerHTML = '50%';
+    percentageSpan.innerHTML = Math.floor(Math.random() * 100);
     resultsDiv.style.display = 'block';
 });
 

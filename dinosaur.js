@@ -11,6 +11,7 @@ var dinosaurSelection = document.getElementById("dinosaurOptions");
 
 
 var curiosityBtn = document.getElementById("curiosityBtn");
+var hideResultsBtn = document.getElementById("hideResults");
 
 // elements pertaining to results
 var resultsDiv = document.getElementById("resultsDiv");
@@ -19,13 +20,22 @@ var dinoSpan = document.getElementById("dinoSpan");
 var percentageSpan = document.getElementById("percentageSpan");
 /////////---////////////////////
 
-// Open the modal
+// show the results
 curiosityBtn.addEventListener("click", function() {
     animalSpan.innerHTML = animalSelection.value;
     dinoSpan.innerHTML =  dinosaurSelection.value;
     percentageSpan.innerHTML = Math.floor(Math.random() * 100);
     resultsDiv.style.display = 'block';
+    hideResults.style.display = 'block';
 });
+
+// hide the results
+hideResultsBtn.addEventListener("click", function(){
+    console.log("im clicked");
+    resultsDiv.style.display = 'none';
+});
+
+
 
   
 var dinoPicTable = {
